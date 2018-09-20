@@ -1,4 +1,4 @@
-CCOPTS=--std=c++17 -Wall -O2
+CXXFLAGS=--std=c++17 -Wall -O2
 
 .DEFAULT_GOAL := all
 
