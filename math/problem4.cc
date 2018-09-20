@@ -1,3 +1,23 @@
+/**
+ * The Modern C++ Challenge, Problem 4
+ *
+ * Problem description: 
+ * ====
+ * 4. Largest prime smaller than given number
+ *
+ * Write a program that computes and prints the largest prime number that is
+ * smaller than a number provided by the user, which must be a positive
+ * integer.
+ *
+ * Notes:
+ * ====
+ * Brute force method again; I considered implementing a 2-strong pseudoprime
+ * test instead, but it's a bit complicated.
+ *
+ * Not entirely brute force since we're testing against mod 2, mod 3, mod 5,
+ * mod 7, mod 9, etc... but it's fairly inefficient.
+ */
+
 #include <iostream>
 #include <cmath>
 #include <stdexcept>

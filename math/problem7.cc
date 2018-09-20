@@ -1,3 +1,23 @@
+/**
+ * The Modern C++ Challenge, Problem 7
+ *
+ * Problem description: 
+ * ====
+ * 7. Amicable numbers
+ *
+ * Write a program that prints the list of all pairs of amicable numbers
+ * smaller than 1,000,000. 
+ *
+ * Notes:
+ * ====
+ * Right on, this more-or-less reuses the abundance test function from the
+ * previous challenge. This time we don't care if a number is abundant per se,
+ * we only want to test if its abundance is commutative.
+ *
+ * We keep around a std::set this time to avoid checking any number twice.
+ * This doesn't seem to add a measurable performance hit.
+ */
+
 #include <iostream>
 #include <set>
 

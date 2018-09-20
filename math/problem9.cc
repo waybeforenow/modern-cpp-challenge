@@ -1,3 +1,19 @@
+/**
+ * The Modern C++ Challenge, Problem 9
+ *
+ * Problem description: 
+ * ====
+ * 9. Prime factors of a number
+ *
+ * Write a program that prints the prime factors of a number entered by the
+ * user.
+ *
+ * Notes:
+ * ====
+ * Count up the possible factors of a number, check if they are factors, then
+ * check if they are prime.
+ */
+
 #include <cmath>
 #include <iostream>
 #include <stdexcept>

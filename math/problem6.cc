@@ -1,3 +1,21 @@
+/**
+ * The Modern C++ Challenge, Problem 6
+ *
+ * Problem description: 
+ * ====
+ * 6. Abundant numbers
+ *
+ * Write a program that prints all abundant numbers and their abundance, up to
+ * a number entered by the user.
+ *
+ * Notes:
+ * ====
+ * This is also a straightforward challenge. There's a slightly more optimized
+ * method of getting a number's proper divisors by adding both divisors at
+ * once and stopping at sqrt(N) rather than N/2. It doesn't seem to make a
+ * huge difference here.
+ */
+
 #include <iostream>
 #include <stdexcept>
 #include <string>

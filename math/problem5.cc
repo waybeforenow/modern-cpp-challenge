@@ -1,3 +1,21 @@
+/**
+ * The Modern C++ Challenge, Problem 5
+ *
+ * Problem description: 
+ * ====
+ * 5. Sexy prime pairs
+ *
+ * Write a program that prints all the sexy prime pairs up to a limit entered
+ * by the user.
+ *
+ * Notes:
+ * ====
+ * I don't like that they're called sexy prime pairs
+ *
+ * Solution was fairly straightforward, and similar to the answer given in the
+ * book.
+ */
+
 #include <cmath>
 #include <iostream>
 #include <stdexcept>

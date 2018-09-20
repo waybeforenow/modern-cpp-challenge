@@ -1,3 +1,25 @@
+/**
+ * The Modern C++ Challenge, Problem 11
+ *
+ * Problem description: 
+ * ====
+ * 11. Converting numerical values to Roman
+ *
+ * Write a program that, given a number entered by the user, prints its Roman
+ * numeral equivalent. 
+ *
+ * Notes:
+ * ====
+ * The vector<pair> at the beginning used to be a map<int, string> until I
+ * read the solution given by the book. That's a reminder for me not to reach
+ * for more complicated abstractions just because the data structure got a
+ * little more complex.
+ *
+ * Other than that, the solution I came up with was substantially similar to
+ * the book solution. I got tripped up on IV, IX, XL, etc. of course. However,
+ * it was a small hurdle.
+ */
+
 #include <iostream>
 #include <stdexcept>
 #include <string>

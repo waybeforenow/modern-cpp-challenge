@@ -1,3 +1,23 @@
+/**
+ * The Modern C++ Challenge, Problem 8
+ *
+ * Problem description: 
+ * ====
+ * 8. Armstrong numbers
+ *
+ * Write a program that prints all Armstrong numbers with three digits.
+ *
+ * Notes:
+ * ====
+ * Though the book gives an algorithm that assumes the number of digits will
+ * always be 3, I wanted to work this out so we could use the same algorithm
+ * for other ranges. I ended up working it out by hand, so I'm not sure how
+ * optimized it really is.
+ *
+ * Relies on <cmath> to do the heavy lifting with digit-counting, isolating
+ * individual digits, and performing arbitrary exponentation.
+ */
+
 #include <cmath>
 #include <iostream>
 #include <vector>

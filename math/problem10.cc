@@ -1,3 +1,20 @@
+/**
+ * The Modern C++ Challenge, Problem 10
+ *
+ * Problem description: 
+ * ====
+ * 10. Gray code
+ *
+ * Write a program that displays the normal binary representations, Gray code
+ * representations, and decoded Gray code values for all 5-bit numbers.
+ *
+ * Notes:
+ * ====
+ * I got into the weeds with this one. The problem statement is a bit vague to
+ * begin with, and I couldn't really understand what's going on with the encoding.
+ * The solution here is substantially copied from the book.
+ */
+
 #include <bitset>
 #include <iostream>
 

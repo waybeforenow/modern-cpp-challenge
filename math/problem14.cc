@@ -1,3 +1,24 @@
+/**
+ * The Modern C++ Challenge, Problem 14
+ *
+ * Problem description: 
+ * ====
+ * 14. Validating ISBNs
+ *
+ * Write a program that validates that 10-digit values entered by the user,
+ * as a string, represent valid ISBN-10 numbers.
+ *
+ * Notes:
+ * ====
+ * Wikipedia says[1] that ISBNs have to pass the weighted-sum algorithm
+ * forwards and backwards. The solution in the book only does it backwards.
+ * Also it uses `std::string_view` instead of `const char*`, and folds a
+ * lambda function into `std::accumulate` instead of what I'm doing here with
+ * the for loop.
+ *
+ * [1] https://en.wikipedia.org/wiki/International_Standard_Book_Number
+ */
+
 #include <iostream>
 #include <stdexcept>
 #include <cstring>

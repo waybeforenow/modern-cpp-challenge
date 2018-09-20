@@ -1,3 +1,24 @@
+/**
+ * The Modern C++ Challenge, Problem 2
+ *
+ * Problem description: 
+ * ====
+ * 2. Greatest common divisor
+ *
+ * Write a program that, given two positive integers, will calculate and print
+ * the greatest common divisor of the two.
+ *
+ * Notes:
+ * ====
+ * There is an optimized, algorithmic approach that uses tail-recursion. I
+ * opted for the brute force method. The optimized approach, which is provided
+ * by the standard libraries via std::gcd, is included here as an optional
+ * preprocessor conditional.
+ *
+ * Preprocessor switches:
+ *   -DUSE_STDLIB: Use the std::gcd algorithm provided by the standard libs.
+ */
+
 #include <iostream>
 #include <stdexcept>
 #include <string>
